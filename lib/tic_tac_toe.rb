@@ -97,8 +97,9 @@ class TicTacToe
     end
   }
   return false
-  binding.pry 
+  
   end
+  binding.pry 
   
   def full?
     if !@board.include?(" ") && won? == false
