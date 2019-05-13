@@ -96,6 +96,10 @@ class TicTacToe
     end
   }
   return false
-    
+  end
+  
+  def full?
+    if won? == false
+      
   end
 end #end class
