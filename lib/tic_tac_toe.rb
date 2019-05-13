@@ -126,7 +126,8 @@ class TicTacToe
   end
   
   def winner
-    
+    if won?[1].include? ("O")
+      
   end
   
   
