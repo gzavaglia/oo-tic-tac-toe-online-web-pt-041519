@@ -126,7 +126,10 @@ class TicTacToe
   end
   
   def winner
-    if won?[1].include? ("O")
+    won?.each do |token|
+      return token
+    end
+    return nil 
       
   end
   
