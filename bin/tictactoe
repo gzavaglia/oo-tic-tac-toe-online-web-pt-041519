@@ -8,6 +8,9 @@ def play
   end
   
   if won? == true
-    
+    puts "Congratulations #{winner}"
+  elsif draw? == true
+    puts "Game is a draw"
+  end 
     
 end
