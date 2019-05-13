@@ -95,7 +95,7 @@ class TicTacToe
     elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
       return win_combo
     end
-    binding.pry 
+
   }
   return false
   
@@ -125,9 +125,9 @@ class TicTacToe
     return false
   end
   
-  # def winner
+  def winner
     
-  # end
+  end
   
   
 end #end class
