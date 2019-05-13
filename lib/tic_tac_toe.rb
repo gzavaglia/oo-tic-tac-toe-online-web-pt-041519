@@ -67,17 +67,17 @@ class TicTacToe
   end
   
   def turn
-    # user_input = gets.chomp
-    user_input = ask_for
-    input_to_index(user_input)
-    move = valid_move?(user_input.to_i)
-    token = current_player
-    if move == true 
-      @board[user_input.to_i-1] = token
-      display_board
-    else
-      turn
-    end 
+    # # user_input = gets.chomp
+    # user_input = ask_for
+    # input_to_index(user_input)
+    # move = valid_move?(user_input.to_i)
+    # token = current_player
+    # if move == true 
+    #   @board[user_input.to_i-1] = token
+    #   display_board
+    # else
+    #   turn
+    # end 
   end
   
   def won?
