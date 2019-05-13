@@ -95,11 +95,12 @@ class TicTacToe
     elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
       return win_combo
     end
+    binding.pry 
   }
   return false
   
   end
-  binding.pry 
+  
   
   def full?
     if !@board.include?(" ") && won? == false
