@@ -126,11 +126,7 @@ class TicTacToe
   end
   
   def winner
-    if won?[1] == ("O")
-      return "O"
-    elsif won?[1] == ("X")
-      return "X"
-    else
+    if won? == false
       return nil
     end
   end
