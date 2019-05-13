@@ -105,5 +105,10 @@ class TicTacToe
     return false
   end
   
-  
+  def draw? 
+    if full? = true
+      return true
+    end
+    return false
+  end
 end #end class
