@@ -2,15 +2,4 @@
 require 'pry'
 require_relative '../lib/tic_tac_toe.rb'
 
-def play
-  until over? == true
-    turn
-  end
-  
-  if won? == true
-    puts "Congratulations #{winner}"
-  elsif draw? == true
-    puts "Game is a draw"
-  end 
-    
-end
+
